@@ -4,8 +4,7 @@ import numpy as np
 
 faceDetect = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 cam = cv2.VideoCapture(0)
-roc = cv2.createLBPHFaceRecognizer()
-roc.load("recognizer/trainingData.yml")
+
 
 id = input("Enter")
 sampleCount = 0
